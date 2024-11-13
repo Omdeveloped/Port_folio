@@ -1,0 +1,79 @@
+<html lang="en"> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="omport.css" />
+  </head>
+
+  <body class="animated-box">
+    <div class="navbar" id="myNavbar">
+      <a href="#"></a>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+
+      <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+        &#9776;
+      </a>
+    </div>
+
+    <div class="coin">
+      <div class="coin1">
+        <p>
+          Hello! I'm <strong>Omprakash</strong>, a passionate developer with a
+          knack for creating engaging and efficient solutions. With a strong
+          foundation in web development, I enjoy transforming ideas into digital
+          reality.
+        </p>
+      </div>
+      <div class="coin2">
+        <img src="omimg.JPG" alt="photo" />
+      </div>
+    </div>
+
+    <section id="skills" class="skills-section">
+      <div class="container">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Python</li>
+          <li>C/C++</li>
+        </ul>
+      </div>
+    </section>
+
+    <div>
+      <h1 style="text-align: center;">Projects</h1>
+      <div class="projects">
+        <div>
+          <p>
+            <h2>C/C++</h2>
+            The mini project of the <strong>college application</strong>. 
+          </p>
+        </div>
+        <div>
+          <p>
+           <h2>Python</h2>
+          </p>
+        </div>
+        <div>
+          <p>
+            <h2>HTML,CSS</h2>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    
+  </body>
+  <script>
+      function toggleMenu() {
+        let navbar = document.getElementById("myNavbar");
+        navbar.className =
+          navbar.className === "navbar" ? "navbar responsive" : "navbar";
+      }
+    </script>
+</html>
