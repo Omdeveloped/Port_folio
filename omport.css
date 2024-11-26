@@ -92,7 +92,7 @@ body {
   }
 
   .navbar a.icon {
-    float: right;
+    float: left;
     display: block;
   }
 
